@@ -1,1 +1,61 @@
-".vs/" 
+# Ignora arquivos binários e de build
+[Bb]in/
+[Oo]bj/
+
+# Ignora arquivos de usuário do Visual Studio
+*.user
+*.suo
+*.userprefs
+
+# Ignora arquivos de cache do Visual Studio
+.vs/
+
+# Ignora arquivos de configuração local
+appsettings.Development.json
+
+# Ignora arquivos de log e banco de dados local
+*.log
+*.sqlite
+*.mdf
+*.ldf
+
+# Ignora arquivos de pacotes NuGet
+packages/
+*.nupkg
+nuget.exe
+
+# Ignora arquivos de teste do MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignora arquivos gerados pelo ReSharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+# Ignora arquivos do Rider
+.idea/
+*.sln.iml
+
+# Ignora arquivos do Azure Functions
+func.exe
+
+# Ignora arquivos de Docker
+docker-compose.*
+.dockerignore
+**/.docker/**
+**/docker/**/*
+
+# Ignora arquivos de Node.js (caso use front-end com Node)
+node_modules/
+npm-debug.log
+
+# Ignora arquivos de IDE/Editor
+.vscode/
+.ionide/
+*.swp
+*.swo
+
+# Ignora arquivos de cache do dotnet
+.dotnet/
+.tool/
